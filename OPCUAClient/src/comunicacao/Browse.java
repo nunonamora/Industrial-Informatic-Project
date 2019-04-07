@@ -1,3 +1,4 @@
+package comunicacao;
 /*******************************************************************************
  * Copyright (c) 2017 Red Hat Inc.
  * All rights reserved. This program and the accompanying materials
@@ -34,7 +35,7 @@ public class Browse {
             System.out.format("%-60s %-15s %s%n", "Name", "Type", "NodeID");
             System.out.println(
                     "==========================================================================================");
-            browse(client, new NodeId(4, "|var|CODESYS Control Win V3 x64.Application.GVL"), "");
+            browse(client, new NodeId(4, "|var|CODESYS Control Win V3 x64.Application.PLC_PRG"), "");
 
         } finally {
             client.disconnect().get();

@@ -1,3 +1,4 @@
+package comunicacao;
 /*******************************************************************************
  * Copyright (c) 2017 Red Hat Inc.
  * All rights reserved. This program and the accompanying materials
@@ -68,11 +69,7 @@ public final class Values {
 
     public static String toString(final Variant value) {
 
-        return String.format("%s : %s",
-                value.getDataType() // get data type
-                        .map(id -> NodeIds.lookup(id).orElse(id.toParseableString())) // map to ID or use node id
-                        .orElse("<unknown>"), // default to "unknown"
-                value.getValue());
+        return String.format("%s",value.getValue());
     }
 
     public static String toString(final StatusCode statusCode) {

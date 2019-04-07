@@ -1,3 +1,4 @@
+package comunicacao;
 /*******************************************************************************
  * Copyright (c) 2017 Red Hat Inc.
  * All rights reserved. This program and the accompanying materials

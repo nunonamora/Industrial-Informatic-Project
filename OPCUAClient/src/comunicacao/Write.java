@@ -1,3 +1,4 @@
+package comunicacao;
 /*******************************************************************************
  * Copyright (c) 2017 Red Hat Inc.
  * All rights reserved. This program and the accompanying materials
@@ -24,7 +25,7 @@ import org.eclipse.milo.opcua.stack.core.types.builtin.Variant;
 
 public class Write {
 
-    private static final NodeId NODE_TO_WRITE = Subscribe.LED_STATE;
+    private static final NodeId NODE_TO_WRITE = new NodeId(4, "|var|CODESYS Control Win V3 x64.Application.PLC_PRG.s2");
 
     public static CompletableFuture<StatusCode> write(
             final OpcUaClient client,
@@ -36,7 +37,7 @@ public class Write {
 
     public static void main(final String[] args) throws Exception {
 
-        final boolean value = args.length > 0 ? Boolean.parseBoolean(args[0]) : true;
+        final boolean value = true;
 
         // first example
 

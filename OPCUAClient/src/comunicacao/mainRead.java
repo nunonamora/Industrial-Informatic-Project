@@ -1,5 +1,4 @@
-
-
+package comunicacao;
 public class mainRead {
 
 	static Read database;

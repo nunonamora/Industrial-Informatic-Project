@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/bcpkix-jdk15on-1.58.jar"/>
+	<classpathentry kind="lib" path="lib/bcprov-jdk15on-1.58.jar"/>
+	<classpathentry kind="lib" path="lib/bsd-parser-core-0.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/client-examples-0.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="lib/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-api-2.2.7.jar"/>
+	<classpathentry kind="lib" path="lib/jool-0.9.10.jar"/>
+	<classpathentry kind="lib" path="lib/jsr305-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/logback-classic-1.1.7.jar"/>
+	<classpathentry kind="lib" path="lib/logback-core-1.1.7.jar"/>
+	<classpathentry kind="lib" path="lib/netty-buffer-4.0.56.Final.jar"/>
+	<classpathentry kind="lib" path="lib/netty-codec-4.0.56.Final.jar"/>
+	<classpathentry kind="lib" path="lib/netty-common-4.0.56.Final.jar"/>
+	<classpathentry kind="lib" path="lib/netty-handler-4.0.56.Final.jar"/>
+	<classpathentry kind="lib" path="lib/netty-transport-4.0.56.Final.jar"/>
+	<classpathentry kind="lib" path="lib/protonpack-1.8.jar"/>
+	<classpathentry kind="lib" path="lib/sdk-client-0.2.5.jar" sourcepath="C:/Users/Nuno Namora Monteiro/.m2/repository/org/eclipse/milo/sdk-client/0.2.5/sdk-client-0.2.5-sources.jar"/>
+	<classpathentry kind="lib" path="lib/sdk-core-0.2.5.jar" sourcepath="lib/sdk-core-0.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/server-examples-0.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.20.jar"/>
+	<classpathentry kind="lib" path="lib/stack-client-0.2.5.jar" sourcepath="C:/Users/Nuno Namora Monteiro/.m2/repository/org/eclipse/milo/stack-client/0.2.5/stack-client-0.2.5-sources.jar"/>
+	<classpathentry kind="lib" path="lib/stack-core-0.2.5.jar" sourcepath="C:/Users/Nuno Namora Monteiro/.m2/repository/org/eclipse/milo/stack-core/0.2.5/stack-core-0.2.5-sources.jar"/>
+	<classpathentry kind="lib" path="lib/sdk-tests-0.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="lib/glutamate-0.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

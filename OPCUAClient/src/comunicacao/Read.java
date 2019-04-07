@@ -1,3 +1,4 @@
+package comunicacao;
 /*******************************************************************************
  * Copyright (c) 2017 Red Hat Inc.
  * All rights reserved. This program and the accompanying materials
@@ -99,14 +100,7 @@ public class Read {
            
         }
 
-     /*   Exceptions.wrap(() -> {
-            Tables.showTable(out,
-                    asList("Node Id", "Value", "State", "Timestamp(Server)", "Timestamp(Source)"),
-                    data, 2);
-        });
-	*/
-     //   System.out.println();
-        
+
     
     }
 
@@ -116,7 +110,7 @@ public class Read {
 
         // == first example
     
-    	for( int i=0;i<5;i++) {
+    	for( int i=0;i<6;i++) {
     	NodeId NODE_TO_READ = new NodeId(4, "|var|CODESYS Control Win V3 x64.Application.GVL.a"+i );
     	
         Connect.connect()
@@ -141,7 +135,7 @@ public class Read {
         System.out.println("Variável a"+ i + ": "+  toString(value.getValue())+"  Finalmente crl!!!");
     	}
     	
-    	for(int s=0;s<3;s++) {
+    	for(int s=0;s<2;s++) {
         	NodeId NODE_TO_READ = new NodeId(4, "|var|CODESYS Control Win V3 x64.Application.GVL.s"+s );
         	
             Connect.connect()
